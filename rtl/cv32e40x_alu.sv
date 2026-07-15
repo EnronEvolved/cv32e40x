@@ -397,6 +397,9 @@ module cv32e40x_alu import cv32e40x_pkg::*;
       ALU_B_CLMULH : result_o = clmulh_result;
       ALU_B_CLMULR : result_o = clmulr_result;
 
+	  ALU_CZEQZ    : result_o = operand_a_i & (32){~&operand_b_i};
+	  ALU_CZNEZ    : result_o = operand_a_i & (32){&operand_b_i};
+
       default: ;
     endcase
 
