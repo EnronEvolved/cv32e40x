@@ -36,6 +36,7 @@ module cv32e40x_core import cv32e40x_pkg::*;
   parameter a_ext_e                     A_EXT                                   = A_NONE,
   parameter b_ext_e                     B_EXT                                   = B_NONE,
   parameter m_ext_e                     M_EXT                                   = M,
+  parameter ic_ext_e                    IC_EXT                                  = IC_NONE,
   parameter bit                         DEBUG                                   = 1,
   parameter logic [31:0]                DM_REGION_START                         = 32'hF0000000,
   parameter logic [31:0]                DM_REGION_END                           = 32'hF0003FFF,

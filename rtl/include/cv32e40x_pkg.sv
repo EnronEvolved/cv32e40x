@@ -1557,6 +1557,9 @@ typedef struct packed {
   // Enum used for configuration of M extension
   typedef enum logic [1:0] {M_NONE, M, ZMMUL} m_ext_e;
 
+  // Enum used for configuration of Zicond extension
+  typedef enum logic {IC_NONE, ZICOND} ic_ext_e;
+
   // Pipe PC mux selector defines. Used to control PC mux in control FSM
   typedef enum logic[1:0] {
     PC_IF,
