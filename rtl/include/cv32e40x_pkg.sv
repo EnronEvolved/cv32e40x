@@ -87,7 +87,7 @@ typedef enum logic [ALU_OP_WIDTH-1:0]
  ALU_B_ORN    = 6'b101110, // funct3 = 110, zbb
  ALU_B_ANDN   = 6'b101111, // funct3 = 111, zbb
 
- // TODO: set proper values for these two opcodes
+ // TODO:Zicond set proper values for these two opcodes
  ALU_CZEQZ    = 6'bzzzzzz, // (funct3 = 101)
  ALU_CZNEZ    = 6'bzzzzzz, // (funct3 = 111)
 

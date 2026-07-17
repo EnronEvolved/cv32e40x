@@ -1,5 +1,5 @@
 // Copyright 2018 ETH Zurich and University of Bologna.
-// TODO: figure out this legal bit
+// TODO:Contribution figure out this legal bit
 // Copyright and related rights are licensed under the Solderpad Hardware
 // License, Version 0.51 (the "License"); you may not use this file except in
 // compliance with the License.  You may obtain a copy of the License at
@@ -9,13 +9,9 @@
 // CONDITIONS OF ANY KIND, either express or implied. See the License for the
 // specific language governing permissions and limitations under the License.
 
-// TODO: find out if the description common thingy is necessary.
+// TODO:Contribution find out if the common description thingy is necessary.
 
 module cv32e40x_zicond_decoder import cv32e40x_pkg::*;
-// TODO: Check if any parameters are needed. It's unlikely IMO.
-//#(
-//    parameter bit CLIC              = 1
-//)
 (
    // from IF/ID pipeline
    input logic [31:0] instr_rdata_i,
