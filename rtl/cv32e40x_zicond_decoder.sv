@@ -1,5 +1,5 @@
-// Copyright 2018 ETH Zurich and University of Bologna.
-// TODO:Contribution figure out this legal bit
+// Copyright 2026 TODO:Contribution figure out the necessity and/or what to
+// put here.
 // Copyright and related rights are licensed under the Solderpad Hardware
 // License, Version 0.51 (the "License"); you may not use this file except in
 // compliance with the License.  You may obtain a copy of the License at
