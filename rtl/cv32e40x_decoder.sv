@@ -240,7 +240,7 @@ module cv32e40x_decoder import cv32e40x_pkg::*;
       assign dec_m_rf_illegal_addr = 1'b0;
       assign decoder_m_ctrl = DECODER_CTRL_ILLEGAL_INSN;
     end
-    
+
     if (IC_EXT != IC_NONE) begin: zicond_decoder
       // RV32Zicond extension decoder
       cv32e40x_zicond_decoder
