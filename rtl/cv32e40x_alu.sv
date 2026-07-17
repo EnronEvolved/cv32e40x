@@ -329,7 +329,7 @@ module cv32e40x_alu import cv32e40x_pkg::*;
     end
   endgenerate
 
-  // TODO: make a cool heading for conditional zeroing?
+  // TODO:style make a cool heading for conditional zeroing?
 
   logic czeqz_result [31:0];
   logic cznez_result [31:0];
