@@ -529,6 +529,7 @@ module cv32e40x_core import cv32e40x_pkg::*;
     .A_EXT                        ( A_EXT                     ),
     .B_EXT                        ( B_EXT                     ),
     .M_EXT                        ( M_EXT                     ),
+    .IC_EXT                       ( IC_EXT                    ),
     .X_EXT                        ( X_EXT                     ),
     .REGFILE_NUM_READ_PORTS       ( REGFILE_NUM_READ_PORTS    ),
     .CLIC                         ( CLIC                      )
@@ -600,6 +601,7 @@ module cv32e40x_core import cv32e40x_pkg::*;
     .X_EXT                      ( X_EXT                        ),
     .B_EXT                      ( B_EXT                        ),
     .M_EXT                      ( M_EXT                        )
+    .IC_EXT                     ( IC_EXT                       )
   )
   ex_stage_i
   (
